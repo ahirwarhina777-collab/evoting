@@ -1,4 +1,4 @@
-const API = "http://localhost:18080/api";
+const API = "http://localhost:8000/api";
 const $ = (id) => document.getElementById(id);
 async function request(path, data) {
   const response = await fetch(API + path, {
