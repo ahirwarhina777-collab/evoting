@@ -239,9 +239,10 @@ const server = http.createServer(async (req, res) => {
   });
 });
 
-server.listen(PORT, () => {
+server.listen(PORT, "0.0.0.0", () => {
   console.log(`=========================================`);
   console.log(`  E-Voting Server running successfully!`);
-  console.log(`  Local URL: http://localhost:${PORT}`);
+  console.log(`  PC Local URL:    http://localhost:${PORT}`);
+  console.log(`  Mobile/LAN URL:  http://192.168.1.7:${PORT}`);
   console.log(`=========================================`);
 });

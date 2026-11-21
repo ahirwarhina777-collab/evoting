@@ -1,17 +1,9 @@
 {
-  "users": [
-    {
-      "name": "somraj lodhi",
-      "email": "iitainsomraj701@gmail.com",
-      "password": "asdf23"
-    }
-  ],
+  "users": [],
   "votes": {
     "Aarav Sharma": 0,
-    "Meera Patel": 1,
+    "Meera Patel": 0,
     "Kabir Verma": 0
   },
-  "votedUsers": [
-    "iitainsomraj701@gmail.com"
-  ]
+  "votedUsers": []
 }
