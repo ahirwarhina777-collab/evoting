@@ -1,0 +1,18 @@
+{
+  "name": "evoting",
+  "version": "1.0.0",
+  "description": "Electronic Voting System Demo Web Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "py": "python server.py"
+  },
+  "keywords": [
+    "e-voting",
+    "election",
+    "demo",
+    "project"
+  ],
+  "author": "",
+  "license": "ISC"
+}
